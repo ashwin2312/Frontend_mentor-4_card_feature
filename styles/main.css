@@ -1,0 +1,82 @@
+body {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-section {
+  width: 320px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+  text-align: center;
+  line-height: 1.2rem;
+}
+
+.sub-title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.body {
+  color: gray;
+}
+
+.title {
+  font-weight: 200;
+  color: hsl(212, 6%, 44%);
+  font-size: 1.5rem;
+}
+
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cards-section #supervisor {
+  border-top: 5px solid cyan;
+}
+.cards-section #team {
+  border-top: 5px solid red;
+}
+.cards-section #karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.cards-section #calc {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.card {
+  width: 320px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.card .icon {
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: flex-end;
+}
+.card .text p {
+  color: grey;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .text-section {
+    width: 100%;
+  }
+  .cards-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */
